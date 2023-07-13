@@ -7,6 +7,9 @@ public enum States
     gamepause,
     gameover
 }
+
+public delegate void gameDelegate();
+
 public class GameManager : MonoBehaviour
 {
     public static event gameDelegate gameStart;
